@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,800;0,900;1,800;1,900&display=swap");
+body, html {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 5vmin;
+}
+
+h1 {
+  display: block;
+  font-family: "Bodoni Moda", serif;
+  font-weight: normal;
+  font-size: 8rem;
+  color: #f04e45;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.sh {
+  font-size: 5vmin;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+svg {
+  width: 100%;
+}
+
+a {
+  color: #f04e45;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-text-decoration-color: transparent;
+          text-decoration-color: transparent;
+  transition: all 100ms ease-out;
+}
+
+a:hover {
+  -webkit-text-decoration-color: #f04e45;
+          text-decoration-color: #f04e45;
+}
+
+body {
+  color: #f04e45;
+  padding: 1rem;
+}
+
+div.content {
+  margin-top: -0.6rem;
+  padding: 1rem;
+  line-height: 1.4;
+}
+div.content * {
+  display: block;
+}
+
+p {
+  margin: 0;
+  padding: 0 1rem;
+  font-size: 0.5em;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-style: italic;
+}
+
+.tel {
+  margin-top: 1em;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  /*color: #fff;
+  h1, a {
+    color: #fff;
+  }*/
+  mix-blend-mode: difference;
+  -webkit-mix-blend-mode: difference;
+}
+
+canvas {
+  z-index: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+}

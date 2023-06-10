@@ -41,6 +41,7 @@ a {
           user-select: none; */
   -webkit-text-decoration-color: transparent;
           text-decoration-color: transparent;
+  padding: 48px 0 48px;
   transition: all 100ms ease-out;
 }
 

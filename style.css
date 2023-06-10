@@ -55,7 +55,7 @@ body {
 }
 
 div.content {
-  margin-top: -0.6rem;
+  margin-top: -1rem;
   padding: 1rem;
   line-height: 1.4;
 }
@@ -65,7 +65,7 @@ div.content * {
 
 p {
   margin: 0;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
   font-size: 0.5em;
   -webkit-user-select: none;
      -moz-user-select: none;
